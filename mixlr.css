@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 120px;
+}
+
+nav{
+    padding: 15px;
+}
+
+.nav-links>a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.nav-links>a:hover{
+    color: red;
+}
+
+.get-started{
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.get-started:hover{
+    border: 1px solid red;
+    color: black;
+}
+
+.head-text{
+    text-align: center;
+    padding-top: 50px;
+}
+.head-text h1{
+    font-size: 57.6px;
+    font-weight: 400;
+    color: black;
+}
+
+.head-text p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.head-text a{
+    color: white;
+    border: 1px;
+    background-color: red;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 10px 20px;
+    /* align-items: center; */
+}
+
+.broadcast h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+
+.broadcast p{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
+.more{
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+}
+
+.one-link h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.one-link p{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    text-align: center;
+    padding: 100px;
+}
+
+.stream{
+    text-align: center;
+    margin-bottom: 10%;
+    
+}
+
+.stream h2{
+    font-size: 48px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.stream a{
+    text-decoration: none;
+    color: white;
+    border: 1px;
+    background-color: red;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.foot-links a{
+    text-decoration: none;
+    gap: 40px;
+    color: black;
+}
+
+.foot-text p{
+    color: black;
+}
